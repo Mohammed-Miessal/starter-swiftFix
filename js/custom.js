@@ -12,9 +12,9 @@ $(".owl-carousel").owlCarousel({
     margin: 10,
     nav: true,
     dots: false,
-    navText: [
-        '<i class="fa fa-long-arrow-left" aria-hidden="true"></i>',
-        '<i class="fa fa-long-arrow-right" aria-hidden="true"></i>'
+  navText: [
+        '<button type="button" role="presentation" class="owl-prev" aria-label="Précédent"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>',
+        '<button type="button" role="presentation" class="owl-next" aria-label="Suivant"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>'
     ],
     autoplay: true,
     autoplayHoverPause: true,
