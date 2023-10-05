@@ -318,7 +318,7 @@ a:focus {
   background-color: #ff8a1d;
   border: 1px solid #ff8a1d;
   border-radius: 5px;
-  color: #ffffff;
+  color: #000000;
   margin-top: 15px;
 }
 
@@ -395,7 +395,7 @@ a:focus {
 .feature_section .feature_container .box:hover,
 .feature_section .feature_container .box.active {
   background-color: #ff8a1d;
-  color: #ffffff;
+  color: #000000;
 }
 
 .feature_section .feature_container .box:hover .img-box svg,
