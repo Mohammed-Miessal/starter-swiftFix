@@ -6,6 +6,7 @@ function getCurrentYear() {
 }
 getCurrentYear()
 
+
 //client section owl carousel
 $(".owl-carousel").owlCarousel({
     loop: true,
@@ -13,8 +14,9 @@ $(".owl-carousel").owlCarousel({
     nav: true,
     dots: false,
     navText: [
-        '<button type="button" role="presentation" class="owl-prev" aria-label="Précédent"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></button>',
-        '<button type="button" role="presentation" class="owl-next" aria-label="Suivant"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>'
+        '<button type="button" role="presentation" class="owl-prev" aria-label="Bouton précédent"> <i class="fa fa-long-arrow-left" aria-hidden="true"></i>  </button>   ',
+        '<button type="button" role="presentation" class="owl-prev" aria-label="Bouton suivant" > <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  </button>   ',
+       
     ],
     autoplay: true,
     autoplayHoverPause: true,
